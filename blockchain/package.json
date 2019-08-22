@@ -1,0 +1,37 @@
+{
+  "name": "blockchain",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.1",
+    "express": "^4.16.4",
+    "i": "^0.3.6",
+    "lodash": "^4.17.11",
+    "npm": "^6.9.0",
+    "react": "16.6.3",
+    "react-native": "^0.59.9",
+    "react-native-collapsible": "^1.4.0",
+    "react-native-collapsible-view": "0.0.3",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-sha256": "^1.2.3",
+    "react-native-vector-icons": "^6.5.0",
+    "react-navigation": "^3.2.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
